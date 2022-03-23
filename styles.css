@@ -1,0 +1,106 @@
+:root {
+  --Pink: hsl(322, 100%, 66%);
+  --Very-Pale-Cyan: hsl(193, 100%, 96%);
+  --Very-Dark-Cyan: hsl(192, 100%, 9%);
+  --Grayish-Blue: hsl(208, 11%, 55%);
+}
+
+body {
+  font-family: sans-serif
+}
+h1 {
+  font-family: Poppins;
+  font-weight: 600;
+}
+header {
+  background-image: url(images/bg-hero-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.navbar-button {
+  background-color: white;
+  color: black;
+  font-weight: 700;
+  border-radius: 20px;
+  border-width: 9vw;
+  border: none;
+  box-shadow: 0 1px 1px rgba(110, 110, 110, 0.363);
+  transition: all 0.5s ease-in;
+}
+
+.navbar-button:hover {
+  transition: all 0.5s ease-out;
+  font-weight: 600;
+  color: var(--Grayish-Blue);
+  background-color: white;
+}
+
+.btn-2 {
+  background-color: var(--Pink);
+  border-radius: 25px;
+
+  color: white;
+}
+
+.btn-2:hover {
+  background-color: hsl(322, 89%, 76%);
+  color: white;
+}
+
+footer {
+  background-color: var(--Very-Dark-Cyan);
+  color: var(--Very-Pale-Cyan);
+  padding: 0;
+  height: 100%;
+}
+
+span {
+  color: var(--Grayish-Blue);
+  font-size: 15px;
+}
+
+ul {
+  list-style: none;
+}
+li {
+  margin: 5%;
+}
+
+.idea {
+  background-color: white;
+  color: black;
+  border-radius: 20px;
+  border: none;
+}
+a {
+  text-decoration: none;
+  color: var(--Grayish-Blue);
+}
+a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.fa-facebook-f:hover {
+  color: #1877f2;
+}
+.fa-twitter:hover {
+  color: #1da1f2;
+}
+
+.fa-instagram:hover {
+  color: #e1306c;
+}
+
+.sign{
+    transition: all 0.5s ease-in;
+}
+.sign:hover {
+  color:#12C7F6;
+  font-size: 25px;
+  transition: all 0.5s ease-out;
+}
+
+.huddle {
+  color:#12C7F6;
+}
